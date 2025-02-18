@@ -1,2 +1,2 @@
 ## Changes
-- [] Test
+- [ ] Test
