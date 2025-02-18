@@ -35,12 +35,12 @@ public class NaiveMCTS extends AIWithComputationBudget implements InterruptibleA
     protected int current_iteration = 0;
             
     public int MAXSIMULATIONTIME = 1024;
-    public int MAX_TREE_DEPTH = 10;
+    public int MAX_TREE_DEPTH = 15;
     
     protected int player;
     
-    public float epsilon_0 = 0.2f;
-    public float epsilon_l = 0.25f;
+    public float epsilon_0 = 0.3f;
+    public float epsilon_l = 0.45f;
     public float epsilon_g = 0.0f;
 
     // these variables are for using a discount factor on the epsilon values above. My experiments indicate that things work better without discount
