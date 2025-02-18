@@ -1,3 +1,0 @@
-## Changes
-- [ ] Edit epsilon values
-- [ ] 
