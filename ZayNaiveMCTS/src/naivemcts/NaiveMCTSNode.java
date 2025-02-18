@@ -23,7 +23,7 @@ public class NaiveMCTSNode extends MCTSNode {
     
     static public int DEBUG = 0;
     
-    public static float C = 0.05f;   // exploration constant for UCB1
+    public static float C = 0.1f;   // exploration constant for UCB1
     
     boolean forceExplorationOfNonSampledActions = true;
     boolean hasMoreActions = true;
